@@ -35,10 +35,10 @@ ISC
 
 - JavaScript
 - JSON
-- Node.js
+- HTML
+- CSS
 - Express.js
 - Mongoose
-- MongoDB 
 - Heroku
 
 
