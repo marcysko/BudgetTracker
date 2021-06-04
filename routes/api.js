@@ -7,6 +7,7 @@ router.post("/api/transaction", ({body}, res) => {
       res.json(dbTransaction);
     })
     .catch(err => {
+      console.error(err);
       res.status(404).json(err);
     });
 });
@@ -17,6 +18,7 @@ router.post("/api/transaction/bulk", ({body}, res) => {
       res.json(dbTransaction);
     })
     .catch(err => {
+      console.error(err);
       res.status(404).json(err);
     });
 });
@@ -27,6 +29,7 @@ router.get("/api/transaction", (req, res) => {
       res.json(dbTransaction);
     })
     .catch(err => {
+      console.error(err);
       res.status(404).json(err);
     });
 });
